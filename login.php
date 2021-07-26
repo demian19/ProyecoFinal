@@ -1,5 +1,5 @@
 <?php
-$con = pg_connect("port=5432 dbname= biblioteca user=bibliotecario password=web123")or die(pg_last_error());
+$con = pg_connect("port=5432 dbname=postgres user=bibliotecario password=web123")or die(pg_last_error());
 
 $usuario = $_POST['nombre'];
 $pass = $_POST['pass'];

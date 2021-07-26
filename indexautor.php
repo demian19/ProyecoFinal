@@ -1,7 +1,7 @@
 <?php
 session_start();
 if($_SESSION['auth'] == true){
-$con = pg_connect("port=5432 dbname=biblioteca user=bibliotecario password=web123") or die(pg_last_error());
+$con = pg_connect("port=5432 dbname=postgres user=bibliotecario password=web123") or die(pg_last_error());
 
 if($con){
 	//echo "se abre la conexióna la BD";

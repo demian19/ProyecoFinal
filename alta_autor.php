@@ -3,9 +3,9 @@
 /*
  *alta_alumno.php
  *Recibe los datos de alumno dorm_alumno.php los procesa e inserta
- *author=ltorres
- *date: 18 03 2021
- *s
+ *author=Demian Cadena
+ *date: 25 07 2021
+ *
  *
  *
  *
@@ -18,7 +18,7 @@ $apaterno_autor = $_POST['apaterno_autor'];
 $amaterno_autor = $_POST['amaterno_autor'];
 	
 
-$con = pg_connect("port=5432 dbname=biblioteca user=bibliotecario password=web123") or die(pg_last_error());
+$con = pg_connect("port=5432 dbname=postgres user=bibliotecario password=web123") or die(pg_last_error());
 
 if($con){
 	//echo "se abre la conexióna la BD";

@@ -1,7 +1,7 @@
 <?php
 $id_autor = $_POST['id_autor'];
 
-$con = pg_connect("port=5432 dbname=biblioteca user=bibliotecario password=web123") or die(pg_last_error());
+$con = pg_connect("port=5432 dbname=postgres user=bibliotecario password=web123") or die(pg_last_error());
 
 if($con){
 	$query ="delete from autor where id_autor ='".$id_autor."'";

@@ -2,7 +2,7 @@
 session_start();
 if($_SESSION['auth'] == true){
 
-$con = pg_connect("port=5432 dbname=biblioteca user=bibliotecario password=web123")or die(pg_last_error());
+$con = pg_connect("port=5432 dbname=postgres user=bibliotecario password=web123")or die(pg_last_error());
 $id = $_GET['id'];
 $query = "select id_autor, nombre_autor, apaterno_autor, amaterno_autor from autor where id_autor ='".$id."'";
 $query = pg_query($con,$query) or die(pg_last_error());

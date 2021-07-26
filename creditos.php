@@ -40,11 +40,11 @@ if($_SESSION['auth'] == true){
 <div style="overflow-x:auto;">
 <h2> Créditos </h2>
 <p> Desarrollador: </p>
-<p><strong>Luis Bernardo Torres Arellano</strong></p>
-<p><strong>Mariana Laura Urzua Borja</strong></p>
+<p><strong>Demian Cadena</strong></p>
+<p><strong>Aaron Llanos </strong></p>
 <p> Documentador: </p>
-<p><strong>Angel Arturo Montiel Monroy </strong></p>
-<p><strong>Cesar Castro Alquicira</strong></p>
+<p><strong>Demian cadena </strong></p>
+<p><strong>Aaron Llanos</strong></p>
 </div>
 </body>
 </html>
