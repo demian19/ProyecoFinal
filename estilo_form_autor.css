@@ -1,0 +1,42 @@
+h1, h2, p {
+	font-weight: 500;
+	text-align: center;
+}
+
+body {
+	color: #000;
+	font-family: 'Montserrat', sans-serif;
+}
+
+form {
+	margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    border: solid 5px #001428;
+    border-radius: 15px;
+    padding: 1rem 2rem;
+}
+input {
+	border: solid 2px #b1afaf;
+    border-radius: 6px;
+	padding: 0.5rem;
+}
+a {
+	background-color: #198754;
+    border-color: #198754;
+    max-width: 200px;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+input[type="submit"] {
+    padding: 0.5rem;
+    background-color: #106d95;
+    border: solid 2px #284f8f;
+    color: white;
+    cursor: pointer;
+}
